@@ -48,26 +48,26 @@ return (
             <h1 className="uppercase text-white font-bold tracking-[6px] pt-9">We're launching soon</h1>
         </div>
 
-        <div className="flex gap-8 py-19 ">
+        <div className="flex sm:flex-row gap-4 sm:gap-8 py-10 sm:py-19 justify-center items-center">
             <div className="timer-bomx relative">
-                <h2 className="bg-[hsl(236,21%,26%)] text-red-400 w-22 h-22 flex items-center justify-center text-4xl font-bold rounded-sm">{count.days}</h2>
-                <span className="text-gray-400 uppercase tracking-[4px] text-[11px] font-bold ">days</span>
+                <h2 className="bg-[hsl(236,21%,26%)] text-red-400 w-16 h-16 sm:w-22 sm:h-22 flex items-center justify-center text-2xl sm:text-4xl font-bold rounded-sm">{count.days}</h2>
+                <span className="text-gray-400 uppercase tracking-[4px] text-[9px] md:text-[11px] font-bold ">days</span>
             </div>
             <div className="timer-bomx relative">
-                <h2 className="bg-[hsl(236,21%,26%)] text-red-400 w-22 h-22 flex items-center justify-center text-4xl font-bold rounded-sm">{count.hours}</h2>
-                <span className="text-gray-400 uppercase tracking-[4px] text-[11px] font-bold ">hours</span>
+                <h2 className="bg-[hsl(236,21%,26%)] text-red-400 w-16 h-16 sm:w-22 sm:h-22 flex items-center justify-center text-2xl sm:text-4xl font-bold rounded-sm">{count.hours}</h2>
+                <span className="text-gray-400 uppercase tracking-[4px] text-[9px] md:text-[11px] font-bold ">hours</span>
             </div>
             <div className="timer-bomx relative">
-                <h2 className="bg-[hsl(236,21%,26%)] text-red-400 w-22 h-22 flex items-center justify-center text-4xl font-bold rounded-sm">{count.minutes}</h2>
-                <span className="text-gray-400 uppercase tracking-[4px] text-[11px] font-bold ">minutes</span>
+                <h2 className="bg-[hsl(236,21%,26%)] text-red-400 w-16 h-16 sm:w-22 sm:h-22 flex items-center justify-center ttext-2xl sm:text-4xl font-bold rounded-sm">{count.minutes}</h2>
+                <span className="text-gray-400 uppercase tracking-[4px] text-[9px] md:text-[11px] font-bold ">minutes</span>
             </div>
             <div className="timer-bomx relative">
-                <h2 className="bg-[hsl(236,21%,26%)] text-red-400 w-22 h-22 flex items-center justify-center text-4xl font-bold rounded-sm">{count.seconds}</h2>
-                <span className="text-gray-400 uppercase tracking-[4px] text-[11px] font-bold ">seconds</span>
+                <h2 className="bg-[hsl(236,21%,26%)] text-red-400 w-16 h-16 sm:w-22 sm:h-22 flex items-center justify-center text-2xl sm:text-4xl font-bold rounded-sm">{count.seconds}</h2>
+                <span className="text-gray-400 uppercase tracking-[4px] text-[9px] md:text-[11px] font-bold ">seconds</span>
             </div>
         </div>
 
-        <div className="flex gap-6 text-center mx-auto mt-29 ml-36">
+        <div className="flex gap-6 justify-center items-center mt-12 md:mt-29">
             <img src="./images/icon-facebook.svg" alt="" />
             <img src="./images/icon-instagram.svg" alt="" />
             <img src="./images/icon-pinterest.svg" alt="" />
